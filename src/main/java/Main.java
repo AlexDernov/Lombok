@@ -28,7 +28,7 @@ public class Main {
         Teacher teacher2 = new Teacher(UUID.randomUUID().toString(), "Tom Müller", "Mathe");
         Teacher teacher3 = new Teacher(UUID.randomUUID().toString(), "Lisa Schröder", "Physic");
 
-        //Sett Mathode
+        //Sett Methode
         student3.setName("Lisa Lehmann");
 
         Course biologie = Course.builder()
@@ -50,6 +50,7 @@ public class Main {
                 .studentsList(studentsList)
                 .build();
 
+        //toString
         System.out.println(mathe);
         System.out.println(physic);
         System.out.println(biologie);
